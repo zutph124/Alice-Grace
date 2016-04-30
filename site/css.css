@@ -1,0 +1,110 @@
+<style>
+body {
+    font-family: Georgia, "Times New Romans", Times, sans-serif;
+    font-size: 25px;
+    background-color: MintCream;
+    }
+header {
+    background-color: lightgoldenrodyellow;    
+}    
+.photos {
+	width: 100%;
+	background: rgb(100, 98, 102);
+}
+
+figcaption {
+    display: block ;
+    float: left; 
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    font-size: 1.5em;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: black;
+    background-color: #fff;
+}
+
+h1.palace {
+    font-family: "Palace Script MT";
+    padding: 0cm;
+    font-size: 8em;
+    text-align: center;
+ } 
+p.palace {
+    font-family: "Palace Script MT";
+    font-size:75px;
+} 
+.pageNav {
+    margin:0px auto 0px auto;
+    width:960px;
+    height:82px;
+    position:left;
+}
+.pageFooter {
+    color: blue;
+    font-family: Arial ;
+    font-size: 0.7em;
+}
+h1 { font-size: 3em; font-family: Verdana; }
+h2 { font-size: 2em; font-weight: normal; padding: 5px; }
+h2.white { font-size: 2em; font-weight: normal; padding: 5px; color:white}
+h3 { font-size: 2em; }
+p  { font-size: 1.5em; }
+
+span {
+    float: left; 
+    font-size: 4em; 
+    font-family: algerian,courier;
+    line-height: .7; 
+    margin: 0 5px 0 0;
+}
+.flowRight {
+	margin-left: 10px;
+    float: right ;
+}
+.flowLeft {
+	margin-right: 10px;
+    float: left ;
+}
+.birthdayleft {
+    background-image:  url("images/birthday/Santauario do Sameiro 2.jpg") ;
+    background-position: left; 
+    background-repeat: no-repeat;    
+    background-size: contain;
+}
+.bigdataleft {
+    background-image:  url("images/Big Data/Galo de Barcelos 2.JPG") ;
+    background-position: left; 
+    background-repeat: no-repeat;    
+    background-size: contain;
+}
+.weddingleft {
+    background-image:  url("images/wedding/rings.jpg") ;
+    background-position: left; 
+    background-repeat: no-repeat;    
+    background-size: contain;
+}
+}
+</style>
